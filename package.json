@@ -3,7 +3,8 @@
   "version": "0.0.3",
   "description": "",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "publish": "npm version patch && git push origin master && npm publish"
   },
   "author": "",
   "license": "ISC",
