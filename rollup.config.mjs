@@ -4,6 +4,8 @@ import typescript from '@rollup/plugin-typescript'
 import dts from 'rollup-plugin-dts'
 import del from 'rollup-plugin-delete'
 import postcss from 'rollup-plugin-postcss'
+import uglify from '@lopatnov/rollup-plugin-uglify'
+import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 
 import packageJson from './package.json' assert { type: 'json' }
 
@@ -18,11 +20,13 @@ export default [
       },
     ],
     plugins: [
-      resolve(),
+      del({ targets: 'dist/*' }),
+      peerDepsExternal(),
+      resolve({ browser: true }),
       commonjs(),
       typescript({ tsconfig: './tsconfig.json' }),
-      del({ targets: 'dist/*' }),
       postcss(),
+      uglify(),
     ],
   },
   {
