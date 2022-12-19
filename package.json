@@ -1,6 +1,6 @@
 {
   "name": "@anvar978/test-ui-kit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "scripts": {
     "rollup": "rollup -c"
@@ -22,8 +22,7 @@
     "react": "*",
     "react-dom": "*"
   },
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
+  "main": "dist/index.js",
   "files": [
     "dist"
   ],
