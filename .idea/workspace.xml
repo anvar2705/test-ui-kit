@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cf3b28d-c5e6-4236-88db-a2de422badba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/globals.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rollup.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/rollup.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/globals.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/globals.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +22,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="com.haulmont.rcb.arrow_function_component" />
         <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="TypeScript File" />
+        <option value="com.haulmont.rcb.arrow_function_component" />
       </list>
     </option>
   </component>
@@ -37,7 +44,7 @@
       <selected-paths>
         <path>
           <id value="$PROJECT_DIR$/package.json" />
-          <id value="rollup" />
+          <id value="publish" />
         </path>
       </selected-paths>
     </layout>
@@ -53,20 +60,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/sandbox/test-ui-kit/src/components/Button&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Admin\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\sandbox\\test-ui-kit\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/sandbox/test-ui-kit/dist",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Admin\\AppData\\Roaming\\npm\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "C:\\sandbox\\test-ui-kit\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -77,12 +84,24 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\sandbox\test-ui-kit\dist" />
+      <recent name="C:\sandbox\test-ui-kit\src\components\Input" />
       <recent name="C:\sandbox\test-ui-kit\src\components\Button" />
       <recent name="C:\sandbox\test-ui-kit" />
       <recent name="C:\sandbox\test-ui-kit\src\components" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.rollup">
+    <configuration name="publish" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="publish" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="rollup" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -95,6 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.publish" />
         <item itemvalue="npm.rollup" />
       </list>
     </recent_temporary>
@@ -109,7 +129,8 @@
       <updated>1671431286498</updated>
       <workItem from="1671431288079" duration="5049000" />
       <workItem from="1671463242248" duration="11747000" />
-      <workItem from="1671511484252" duration="257000" />
+      <workItem from="1671511484252" duration="4256000" />
+      <workItem from="1671515793119" duration="1863000" />
     </task>
     <servers />
   </component>

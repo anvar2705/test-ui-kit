@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { IButtonProps } from './Button.types'
-import s from './Button.module.css'
+import s from './Button.css'
 
 const Button = (props: IButtonProps): JSX.Element => {
   const { label, ...buttonProps } = props
