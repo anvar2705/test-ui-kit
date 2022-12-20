@@ -1,6 +1,6 @@
 {
   "name": "@anvar978/test-ui-kit",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "",
   "scripts": {
     "rollup": "rollup -c",
